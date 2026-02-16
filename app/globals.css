@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+@theme {
+  /* Fonts */
+  --font-orbitron: var(--font-orbitron);
+  --font-rajdhani: var(--font-rajdhani);
+
+  /* Colors */
+  --color-aston-black: #0B0C0B;
+  /* Deepest black/green */
+  --color-aston-green: #004225;
+  /* Historic Racing Green */
+  --color-deep-green: #101815;
+  /* Modern Racing Green */
+  --color-lime-essence: #D1E231;
+  /* AMR Lime Essence */
+  --color-carbon-gray: #1E1E1E;
+  /* Carbon Fiber */
+  --color-silver-fox: #C0C0C0;
+  /* Metallic Silver */
+}
+
+body {
+  background-color: var(--color-aston-black);
+  color: white;
+  font-family: var(--font-rajdhani), sans-serif;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-orbitron), sans-serif;
+}
